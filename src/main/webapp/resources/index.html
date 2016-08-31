@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html data-ng-app="formSubmit">
+<head>
+<meta charset="ISO-8859-1">
+<title>AngularJS Post Form Spring MVC example</title>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+<script type="text/javascript">
+	var app = angular.module('formSubmit', []);
+	
+	app.controller('FormSubmitController',[ '$scope', '$http', function($scope, $http) {
+			
+		$scope.list = [];
+			$scope.headerText = 'AngularJS Post Form Spring MVC example: Submit below form';
+			$scope.submit = function() {
+				
+				var formData = {
+						"name" : $scope.name,
+						"joiningDate" : $scope.joiningDate,
+						"salary" : $scope.salary,
+						"ssn" :$scope.ssn
+				};
+				
+				var response = $http.post('as/test', formData);
+				response.success(function(data, status, headers, config) {
+				
+					$scope.list.push(data);
+				});
+				response.error(function(data, status, headers, config) {
+					alert( "Exception details: " + JSON.stringify({data: data}));
+				});
+				
+				//Empty list data after process
+				$scope.list = [];
+				
+			};
+		}]);
+</script>
+</head>
+<body>
+	<form data-ng-submit="submit()"
+		data-ng-controller="FormSubmitController">
+		<h3>{{headerText}}</h3>
+		<table>
+			<tr>
+				<td><label for="name">Name: </label></td>
+				<td><input type="text" data-ng-model="name"></td>
+			</tr>
+			<tr>
+				<td><label for="joiningDate">Joining Date: </label></td>
+				<td><input type="text" data-ng-model="joiningDate"></td>
+
+			</tr>
+
+			<tr>
+				<td><label for="salary">Salary: </label></td>
+				<td><input type="text" data-ng-model="salary"></td>
+			</tr>
+
+			<tr>
+				<td><label for="ssn">SSN: </label></td>
+				<td><input type="text" data-ng-model="ssn"></td>
+			</tr>
+			<tr>
+				<td colspan="3"><input type="submit" id="submit" value="Submit" /></td>
+			</tr>
+		</table>
+		<h4>You submitted below data through post:</h4>
+		<pre>Form data ={{list}}</pre>
+	</form>
+</body>

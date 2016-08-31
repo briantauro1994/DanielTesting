@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="2251" started-at="2016-08-16T10:33:45Z" finished-at="2016-08-16T10:33:47Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="2251" started-at="2016-08-16T10:33:45Z" finished-at="2016-08-16T10:33:47Z">
+      <class name="com.covenant.app.dao.EmployeeDaoImplTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="94" started-at="2016-08-16T16:03:47Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.covenant.app.dao.EmployeeDaoImplTest.findAllEmployees()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="setUp" is-config="true" duration-ms="8" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findAllEmployees()[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="findAllEmployees" duration-ms="7" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllEmployees -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.covenant.app.dao.EmployeeDaoImplTest.findAllEmployees()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.covenant.app.dao.EmployeeDaoImplTest.findById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="setUp" is-config="true" duration-ms="6" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="findById" duration-ms="8" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findById -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.covenant.app.dao.EmployeeDaoImplTest.findById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.covenant.app.dao.EmployeeDaoImplTest.findEmployeeBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="setUp" is-config="true" duration-ms="8" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findEmployeeBySsn()[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="findEmployeeBySsn" duration-ms="5" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findEmployeeBySsn -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.covenant.app.dao.EmployeeDaoImplTest.findEmployeeBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="setUp" is-config="true" duration-ms="8" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.covenant.app.dao.EmployeeDaoImplTest.saveEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="saveEmployee()[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="saveEmployee" duration-ms="23" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployee -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.covenant.app.dao.EmployeeDaoImplTest.saveEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.covenant.app.dao.EmployeeDaoImplTest@319b92f3]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.covenant.app.dao.EmployeeDaoImplTest -->
+      <class name="com.covenant.app.controllers.ApppControllerTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.covenant.app.controllers.ApppControllerTest@6fb0d3ed]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1636" started-at="2016-08-16T16:03:45Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-08-16T16:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.covenant.app.controllers.ApppControllerTest@6fb0d3ed]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2016-08-16T16:03:45Z" finished-at="2016-08-16T16:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.covenant.app.controllers.ApppControllerTest@6fb0d3ed]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="37" started-at="2016-08-16T16:03:46Z" finished-at="2016-08-16T16:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.covenant.app.controllers.ApppControllerTest.findAll() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.covenant.app.controllers.ApppControllerTest@6fb0d3ed]" name="setUp" is-config="true" duration-ms="54" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findAll()[pri:0, instance:com.covenant.app.controllers.ApppControllerTest@6fb0d3ed]" name="findAll" duration-ms="113" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAll -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.covenant.app.controllers.ApppControllerTest@6fb0d3ed]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="5" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.covenant.app.controllers.ApppControllerTest.findAll() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.covenant.app.controllers.ApppControllerTest@6fb0d3ed]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.covenant.app.controllers.ApppControllerTest -->
+      <class name="com.covenant.app.controllers.AppControllerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.covenant.app.controllers.AppControllerTest@5123a213]" name="setUp" is-config="true" duration-ms="189" started-at="2016-08-16T16:03:45Z" finished-at="2016-08-16T16:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="editEmployee()[pri:0, instance:com.covenant.app.controllers.AppControllerTest@5123a213]" name="editEmployee" duration-ms="20" started-at="2016-08-16T16:03:45Z" finished-at="2016-08-16T16:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEmployee -->
+        <test-method status="PASS" signature="listEmployees()[pri:0, instance:com.covenant.app.controllers.AppControllerTest@5123a213]" name="listEmployees" duration-ms="4" started-at="2016-08-16T16:03:45Z" finished-at="2016-08-16T16:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listEmployees -->
+        <test-method status="PASS" signature="newEmployee()[pri:0, instance:com.covenant.app.controllers.AppControllerTest@5123a213]" name="newEmployee" duration-ms="0" started-at="2016-08-16T16:03:45Z" finished-at="2016-08-16T16:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newEmployee -->
+        <test-method status="PASS" signature="saveEmployeeWithSuccess()[pri:0, instance:com.covenant.app.controllers.AppControllerTest@5123a213]" name="saveEmployeeWithSuccess" duration-ms="2" started-at="2016-08-16T16:03:45Z" finished-at="2016-08-16T16:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployeeWithSuccess -->
+        <test-method status="PASS" signature="saveEmployeeWithValidationError()[pri:0, instance:com.covenant.app.controllers.AppControllerTest@5123a213]" name="saveEmployeeWithValidationError" duration-ms="0" started-at="2016-08-16T16:03:45Z" finished-at="2016-08-16T16:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployeeWithValidationError -->
+        <test-method status="PASS" signature="saveEmployeeWithValidationErrorNonUniqueSSN()[pri:0, instance:com.covenant.app.controllers.AppControllerTest@5123a213]" name="saveEmployeeWithValidationErrorNonUniqueSSN" duration-ms="1" started-at="2016-08-16T16:03:45Z" finished-at="2016-08-16T16:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployeeWithValidationErrorNonUniqueSSN -->
+        <test-method status="PASS" signature="updateEmployeeWithSuccess()[pri:0, instance:com.covenant.app.controllers.AppControllerTest@5123a213]" name="updateEmployeeWithSuccess" duration-ms="1" started-at="2016-08-16T16:03:45Z" finished-at="2016-08-16T16:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeWithSuccess -->
+        <test-method status="PASS" signature="updateEmployeeWithValidationError()[pri:0, instance:com.covenant.app.controllers.AppControllerTest@5123a213]" name="updateEmployeeWithValidationError" duration-ms="0" started-at="2016-08-16T16:03:45Z" finished-at="2016-08-16T16:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeWithValidationError -->
+        <test-method status="PASS" signature="updateEmployeeWithValidationErrorNonUniqueSSN()[pri:0, instance:com.covenant.app.controllers.AppControllerTest@5123a213]" name="updateEmployeeWithValidationErrorNonUniqueSSN" duration-ms="1" started-at="2016-08-16T16:03:45Z" finished-at="2016-08-16T16:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeWithValidationErrorNonUniqueSSN -->
+      </class> <!-- com.covenant.app.controllers.AppControllerTest -->
+      <class name="com.covenant.app.services.EmployeeServiceImplTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.covenant.app.services.EmployeeServiceImplTest@fe18270]" name="setUp" is-config="true" duration-ms="4" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.covenant.app.services.EmployeeServiceImplTest@fe18270]" name="findById" duration-ms="1" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findById -->
+        <test-method status="PASS" signature="findAllEmployees()[pri:0, instance:com.covenant.app.services.EmployeeServiceImplTest@fe18270]" name="findAllEmployees" duration-ms="0" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllEmployees -->
+        <test-method status="PASS" signature="findEmployeeBySsn()[pri:0, instance:com.covenant.app.services.EmployeeServiceImplTest@fe18270]" name="findEmployeeBySsn" duration-ms="0" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findEmployeeBySsn -->
+        <test-method status="PASS" signature="isEmployeeSsnUnique()[pri:0, instance:com.covenant.app.services.EmployeeServiceImplTest@fe18270]" name="isEmployeeSsnUnique" duration-ms="0" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isEmployeeSsnUnique -->
+        <test-method status="PASS" signature="updateEmployee()[pri:0, instance:com.covenant.app.services.EmployeeServiceImplTest@fe18270]" name="updateEmployee" duration-ms="0" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployee -->
+        <test-method status="PASS" signature="saveEmployee()[pri:0, instance:com.covenant.app.services.EmployeeServiceImplTest@fe18270]" name="saveEmployee" duration-ms="0" started-at="2016-08-16T16:03:47Z" finished-at="2016-08-16T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployee -->
+      </class> <!-- com.covenant.app.services.EmployeeServiceImplTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
